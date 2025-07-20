@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Boogaloo&display=swap');
+
+
+* {   
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body{
+     background: url(/fundo/fundamentos-de-basquete-3d.jpg);
+     background-repeat:no-repeat;
+     background-size:100%;
+     background-attachment: fixed;
+}
+
+.nav-bar{   
+    width: 42%;
+    height: 15vh;
+    text-align: center;
+    top: 0;
+    position:fixed;
+    background-color: #ce1b1b;
+    color: #ffffff;
+    font-size: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000; 
+    border-radius: 0 0 149px 149px;
+    box-shadow: 10px 10px 50px #ffffff;  
+}
+
+.nav-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-flex h3 {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.nav-bar img{
+    width: 144px;
+    height: 144px;
+}
+
+
+.pik img{
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    margin: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.container{
+    margin: 50px auto; 
+    width: 720px;
+    padding-top: 250px;
+}
+
+.clear{
+    clear: both;
+}
+
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.times-nba{
+    border-radius: 50px;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.bulls:hover{
+    background-color:#d2153aed;
+    box-shadow: 5px 5px 20px #d2153a;
+    transform: scale(1.1);
+}
+
+
+.halks:hover{
+    background-color: #e03a3e;
+    box-shadow: 5px 5px 20px #e03a3e;
+    transform: scale(1.1);
+}
+
+.nets:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.cavs:hover{
+    background-color: #860038;
+    box-shadow: 5px 5px 20px #860038;
+    transform: scale(1.1);
+}
+
+
+.detroit:hover{
+    background-color: #ed174c;
+    box-shadow: 5px 5px 20px #ed174c;
+    transform: scale(1.1);
+}
+
+.indiana:hover{
+    background-color: #ffc526;
+    box-shadow: 5px 5px 20px #ffc526;
+    transform: scale(1.1);
+}
+
+.miami:hover{
+    background-color: #bf2f38;
+    box-shadow: 5px 5px 20px #bf2f38;
+    transform: scale(1.1);
+}
+
+.bucks:hover{
+    background-color: #104622;
+    box-shadow: 5px 5px 20px #104622;
+    transform: scale(1.1);
+}
+
+.hornets:hover{
+    background-color: #008fc5;
+    box-shadow: 5px 5px 20px #008fc5;
+    transform: scale(1.1);
+}
+
+
+.knicks:hover{
+    background-color: #e76e32;
+    box-shadow: 5px 5px 20px #e76e32;
+    transform: scale(1.1);
+}
+
+
+.orlando:hover{
+    background-color: #0474bc;
+    box-shadow: 5px 5px 20px #0474bc;
+    transform: scale(1.1);
+}
+
+
+.phila:hover{
+    background-color: #ed174f;
+    box-shadow: 5px 5px 20px #ed174f;
+    transform: scale(1.1);
+}
+
+
+.toronto:hover{
+    background-color: #d31245;
+    box-shadow: 5px 5px 20px #d31245;
+    transform: scale(1.1);
+}
+
+
+.wizards:hover{
+    background-color: #db6778;
+    box-shadow: 5px 5px 20px #e31837;
+    transform: scale(1.1);
+}
+
+
+.boston:hover{
+    background-color: #008248;
+    box-shadow: 5px 5px 20px #008248;
+    transform: scale(1.1);
+}
+
+
