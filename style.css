@@ -41,7 +41,7 @@ body{
 
 #cabecalho{
     background-color: #000000;
-    padding: 40px;
+    padding: 23px;
     box-shadow: 5px 5px 20px rgb(255, 255, 255);
     position: fixed;
     width: 100%;
@@ -102,6 +102,16 @@ h1{
     color: #ffffff;
     
 }
+
+
+.titulo-principal {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #e50914;
+  text-shadow: 2px 2px #fffdfd;
+}
+
+
 
 .times-nba{
     border-radius: 50px;
