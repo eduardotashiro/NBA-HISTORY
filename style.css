@@ -107,14 +107,15 @@ body{
 .titulo-principal {
     text-align: center;
     font-family: 'Georgia', serif;
-    color: #e50914;
-    text-shadow: 2px 2px #ffffff;
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .sub-titulo{
     text-align: center;
     color: #ffffff;
-    font-size: 50px;    
+    font-size: 50px; 
+     text-shadow: 2px 2px #ff0000;     
 }
 
 h1{
