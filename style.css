@@ -20,43 +20,63 @@ body{
      background-attachment: fixed;
 }
 
-.nav-bar{   
-    width: 42%;
+/*.cabecalho{   
+    width: 90vw;
     height: 15vh;
     text-align: center;
     top: 0;
-    position:fixed;
+    justify-content: center;
     background-color: #ce1b1b;
     color: #ffffff;
     font-size: 50px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+    padding:40px;
+    
     z-index: 10000; 
     border-radius: 0 0 149px 149px;
-    box-shadow: 10px 10px 50px #ffffff;  
+    box-shadow: 10px 10px 50px #fa0000;  
+    display: block;
+    
+}*/
+
+#cabecalho{
+    background-color: #000000;
+    padding: 40px;
+    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;  
+    
 }
 
-.nav-flex{
-    display: flex;
+
+
+
+.menu{
+
     align-items: center;
     justify-content: center;
 }
 
-.nav-flex h3 {
-  flex: 1;
-  text-align: center;
-}
-
-.logo {
+.logo1,.logo2 {
   width: 100px;
-  height: auto;
+  height: auto; 
+  position: fixed;
+  
+  
 }
 
-.nav-bar img{
-    width: 144px;
-    height: 144px;
+.logo1{
+    top: 10px;
+    left: 0px;
+  
 }
 
+.logo2 { 
+    top: 10px;
+    right: 0px;
+    
+}
 
 .pik img{
     width: 200px;
@@ -68,7 +88,7 @@ body{
 }
 
 .container{
-    margin: 50px auto; 
+    margin: auto; 
     width: 720px;
     padding-top: 250px;
 }
@@ -80,6 +100,7 @@ body{
 h1{
     text-align: center;
     color: #ffffff;
+    
 }
 
 .times-nba{
