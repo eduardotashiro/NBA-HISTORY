@@ -42,14 +42,13 @@ body{
 #cabecalho{
     background-color: #000000;
     padding: 23px;
-    box-shadow: 5px 5px 20px rgb(255, 255, 255);
+    box-shadow: 5px 5px 100px rgb(145, 144, 144);
     position: fixed;
-    width: 100%;
-    z-index: 1000;  
-    
+    width: 50vw;
+    left: 25%;
+    z-index: 10; 
+    border-radius: 100px;
 }
-
-
 
 
 .menu{
@@ -58,7 +57,7 @@ body{
     justify-content: center;
 }
 
-.logo1,.logo2 {
+.logo1,.logo2,.logo3,.logo4 {
   width: 100px;
   height: auto; 
   position: fixed;
@@ -68,14 +67,22 @@ body{
 
 .logo1{
     top: 10px;
-    left: 0px;
-  
+    left: 0px;  
 }
 
 .logo2 { 
     top: 10px;
+    right: 0px;   
+}
+
+.logo3{
+    bottom: 10px;
+    left: 0px;
+}
+
+.logo4{
+    bottom: 10px;
     right: 0px;
-    
 }
 
 .pik img{
@@ -97,21 +104,26 @@ body{
     clear: both;
 }
 
-h1{
+.titulo-principal {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #e50914;
+    text-shadow: 2px 2px #ffffff;
+}
+
+.sub-titulo{
     text-align: center;
     color: #ffffff;
-    
+    font-size: 50px;    
 }
 
+h1{
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #e50914;
+    text-shadow: 2px 2px #ffffff;  
 
-.titulo-principal {
-  text-align: center;
-  font-family: 'Georgia', serif;
-  color: #e50914;
-  text-shadow: 2px 2px #fffdfd;
 }
-
-
 
 .times-nba{
     border-radius: 50px;
