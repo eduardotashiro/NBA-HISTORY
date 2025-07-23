@@ -1,91 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Boogaloo&display=swap');
 
 
-* {   
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-  font-family: "Boogaloo", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Boogaloo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 
 
-body{
-     background: url(/fundo/fundamentos-de-basquete-3d.jpg);
-     background-repeat:no-repeat;
-     background-size:100%;
-     background-attachment: fixed;
+body {
+    background: url(/fundo/fundamentos-de-basquete-3d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* cobre 100% da tela de forma proporcional */
+
+    background-attachment: fixed;
+    /* fixa o fundo ao rolar */
+
+    background-position: center center;
+    /* centraliza horizontal e verticalmente */
+
+    min-width: 360px;
+    /* largura mínima que o layout suporta */
+    min-height: 100vh;
+    /* altura mínima da tela */
+
 }
 
-/*.cabecalho{   
-    width: 90vw;
-    height: 15vh;
-    text-align: center;
-    top: 0;
-    justify-content: center;
-    background-color: #ce1b1b;
-    color: #ffffff;
-    font-size: 50px;
-    margin: 0 auto;
-    padding:40px;
-    
-    z-index: 10000; 
-    border-radius: 0 0 149px 149px;
-    box-shadow: 10px 10px 50px #fa0000;  
-    display: block;
-    
-}*/
 
-#cabecalho{
-    background-color: #000000;
+#cabecalho {
+    background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
     padding: 23px;
-    box-shadow: 5px 5px 100px rgb(145, 144, 144);
+    box-shadow: 5px 5px 50px rgb(145, 144, 144);
     position: fixed;
-    width: 50vw;
-    left: 25%;
-    z-index: 10; 
-    border-radius: 100px;
+    width: 100vw;
+    z-index: 100;
+    border-radius:0 0  300px 300px ;
+    
 }
 
 
-.menu{
+.menu {
 
     align-items: center;
     justify-content: center;
 }
 
-.logo1,.logo2,.logo3,.logo4 {
-  width: 100px;
-  height: auto; 
-  position: fixed;
-  
-  
+.logo1,
+.logo2 {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    z-index: 0;
+
+
 }
 
-.logo1{
-    top: 10px;
-    left: 0px;  
-}
-
-.logo2 { 
-    top: 10px;
-    right: 0px;   
-}
-
-.logo3{
+.logo1 {
     bottom: 10px;
     left: 0px;
 }
 
-.logo4{
+.logo2 {
     bottom: 10px;
     right: 0px;
 }
 
-.pik img{
+.pik img {
     width: 200px;
     height: 200px;
     padding: 2px;
@@ -94,139 +81,154 @@ body{
     float: left;
 }
 
-.container{
-    margin: auto; 
+.container {
+    margin: auto;
     width: 720px;
     padding-top: 250px;
 }
 
-.clear{
-    clear: both;
-}
 
 .titulo-principal {
     text-align: center;
     font-family: 'Georgia', serif;
     color: #ffffff;
     text-shadow: 2px 2px #ff0000;
+    
 }
 
-.sub-titulo{
+.sub-titulo {
     text-align: center;
     color: #ffffff;
-    font-size: 50px; 
-     text-shadow: 2px 2px #ff0000;     
+    font-size: 50px;
+    text-shadow: 2px 2px #ff0000;
+    font-family: 'Georgia', serif;
 }
 
-h1{
+.container h1 {
     text-align: center;
     font-family: 'Georgia', serif;
-    color: #e50914;
-    text-shadow: 2px 2px #ffffff;  
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
+    margin:100px;
+    background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
+    border-radius: 50px;
+    box-shadow: 5px 5px 50px rgb(145, 144, 144);
+    padding: 5px;
 
 }
 
-.times-nba{
+.conferencia-leste{
+    
+}
+
+.coferencia-oeste{
+
+
+}
+
+.clear{
+    clear:both;
+}
+
+.times-nba {
     border-radius: 50px;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.bulls:hover{
-    background-color:#d2153aed;
+.bulls:hover {
+    background-color: #d2153aed;
     box-shadow: 5px 5px 20px #d2153a;
     transform: scale(1.1);
 }
 
 
-.halks:hover{
+.hawks:hover {
     background-color: #e03a3e;
     box-shadow: 5px 5px 20px #e03a3e;
     transform: scale(1.1);
 }
 
-.nets:hover{
+.nets:hover {
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 20px rgb(255, 255, 255);
     transform: scale(1.1);
 }
 
-.cavs:hover{
+.cavs:hover {
     background-color: #860038;
     box-shadow: 5px 5px 20px #860038;
     transform: scale(1.1);
 }
 
 
-.detroit:hover{
+.detroit:hover {
     background-color: #ed174c;
     box-shadow: 5px 5px 20px #ed174c;
     transform: scale(1.1);
 }
 
-.indiana:hover{
+.indiana:hover {
     background-color: #ffc526;
     box-shadow: 5px 5px 20px #ffc526;
     transform: scale(1.1);
 }
 
-.miami:hover{
+.miami:hover {
     background-color: #bf2f38;
     box-shadow: 5px 5px 20px #bf2f38;
     transform: scale(1.1);
 }
 
-.bucks:hover{
+.bucks:hover {
     background-color: #104622;
     box-shadow: 5px 5px 20px #104622;
     transform: scale(1.1);
 }
 
-.hornets:hover{
+.hornets:hover {
     background-color: #008fc5;
     box-shadow: 5px 5px 20px #008fc5;
     transform: scale(1.1);
 }
 
 
-.knicks:hover{
+.knicks:hover {
     background-color: #e76e32;
     box-shadow: 5px 5px 20px #e76e32;
     transform: scale(1.1);
 }
 
 
-.orlando:hover{
+.orlando:hover {
     background-color: #0474bc;
     box-shadow: 5px 5px 20px #0474bc;
     transform: scale(1.1);
 }
 
 
-.phila:hover{
+.phila:hover {
     background-color: #ed174f;
     box-shadow: 5px 5px 20px #ed174f;
     transform: scale(1.1);
 }
 
 
-.toronto:hover{
+.toronto:hover {
     background-color: #d31245;
     box-shadow: 5px 5px 20px #d31245;
     transform: scale(1.1);
 }
 
 
-.wizards:hover{
+.wizards:hover {
     background-color: #db6778;
     box-shadow: 5px 5px 20px #e31837;
     transform: scale(1.1);
 }
 
 
-.boston:hover{
+.boston:hover {
     background-color: #008248;
     box-shadow: 5px 5px 20px #008248;
     transform: scale(1.1);
 }
-
-
