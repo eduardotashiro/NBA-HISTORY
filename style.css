@@ -58,8 +58,6 @@ body {
     height: auto;
     position: fixed;
     z-index: 0;
-
-
 }
 
 .logo1 {
@@ -117,15 +115,6 @@ body {
 
 }
 
-.conferencia-leste{
-    
-}
-
-.coferencia-oeste{
-
-
-}
-
 .clear{
     clear:both;
 }
@@ -134,6 +123,8 @@ body {
     border-radius: 50px;
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+/**** Conferência Leste ****/
 
 .bulls:hover {
     background-color: #d2153aed;
@@ -230,5 +221,98 @@ body {
 .boston:hover {
     background-color: #008248;
     box-shadow: 5px 5px 20px #008248;
+    transform: scale(1.1);
+}
+
+/**** Conferência Oeste ****/
+
+.dallas:hover {
+    background-color:#1061ac;
+    box-shadow: 5px 5px 20px #1061ac;
+    transform: scale(1.1);
+}
+
+.denver:hover {
+    background-color:#4b90cd;
+    box-shadow: 5px 5px 20px #1061ac;
+    transform: scale(1.1);
+}
+
+.golden:hover {
+    background-color:#fbbf16;
+    box-shadow: 5px 5px 20px #fbbf16;
+    transform: scale(1.1);
+}
+
+.houston:hover {
+    background-color: white;
+    box-shadow: 5px 5px 20px white;
+    transform: scale(1.1);
+}
+
+.clippers:hover {
+    background-color:#0446ac;
+    box-shadow: 5px 5px 20px #0446ac;
+
+    transform: scale(1.1);
+}
+
+.lakers:hover {
+    background-color:#fdb827;
+    box-shadow: 5px 5px 20px #fdb827;
+    transform: scale(1.1);
+}
+
+.memphis:hover {
+    background-color:#23375b;
+    box-shadow: 5px 5px 20px #23375b;
+    transform: scale(1.1);
+}
+
+.minnesota:hover {
+    background-color:#0ea94e;
+    box-shadow: 5px 5px 20px #0ea94e;
+    transform: scale(1.1);
+}
+
+.pelicans:hover {
+    background-color:#002a5c;
+    box-shadow: 5px 5px 20px #002a5c;
+    transform: scale(1.1);
+}
+
+.thunder:hover {
+    background-color:#b44940;
+    box-shadow: 5px 5px 20px #b44940;
+    transform: scale(1.1);
+}
+
+.suns:hover {
+    background-color:#3e2680;
+    box-shadow: 5px 5px 20px #3e2680;
+    transform: scale(1.1);
+}
+
+.portland:hover {
+    background-color: #231f20;
+    box-shadow: 5px 5px 20px #231f20 ;
+    transform: scale(1.1);
+}
+
+.kings:hover {
+    background-color: #393d94;
+    box-shadow: 5px 5px 20px #393d94;
+    transform: scale(1.1);
+}
+
+.spurs:hover {
+    background-color: #c4ced4;
+    box-shadow: 5px 5px 20px #c4ced4;
+    transform: scale(1.1);
+}
+
+.jazz:hover {
+    background-color: #0c2340;
+    box-shadow: 5px 5px 20px #0c2340;
     transform: scale(1.1);
 }
