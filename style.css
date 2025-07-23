@@ -15,7 +15,7 @@
 
 
 body {
-    background: url(fundo/fundamentos-de-basquete-3d.jpg);
+    background: url(/fundo/fundamentos-de-basquete-3d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* cobre 100% da tela de forma proporcional */
