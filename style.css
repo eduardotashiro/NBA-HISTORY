@@ -1,3 +1,5 @@
+/***** ESTILOS GERAIS DO SITE *****/
+
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Boogaloo&display=swap');
 
 
@@ -52,8 +54,7 @@ body {
     justify-content: center;
 }
 
-.logo1,
-.logo2 {
+.logos-nba img{
     width: 100px;
     height: auto;
     position: fixed;
@@ -124,7 +125,7 @@ body {
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-/**** Conferência Leste ****/
+/***** CONFERÊNCIA LESTE - TIMES *****/
 
 .bulls:hover {
     background-color: #d2153aed;
@@ -224,7 +225,7 @@ body {
     transform: scale(1.1);
 }
 
-/**** Conferência Oeste ****/
+/***** CONFERÊNCIA OESTE - TIMES *****/
 
 .dallas:hover {
     background-color:#1061ac;
@@ -316,3 +317,14 @@ body {
     box-shadow: 5px 5px 20px #0c2340;
     transform: scale(1.1);
 }
+
+/***** rodape *****/
+
+.rodape{
+    text-align: center;
+    padding: 30px;
+}
+
+/***** PÁGINAS DOS TIMES - ESTILO PADRÃO *****/
+
+amanha eu faço to morto
