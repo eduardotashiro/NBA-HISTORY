@@ -125,6 +125,32 @@ body {
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+.saudacoes{
+    
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
+    border-radius: 100px;
+    padding: 30px;
+    box-shadow: 5px 5px 50px rgb(145, 144, 144); 
+}
+
+.saudacoes h2{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px #ff0000;
+    font-family: 'Georgia', serif;
+    font-size: 23px;
+
+}
+   
+
+
+
+
+
+
 /***** CONFERÊNCIA LESTE - TIMES *****/
 
 .bulls:hover {
@@ -327,4 +353,3 @@ body {
 
 /***** PÁGINAS DOS TIMES - ESTILO PADRÃO *****/
 
-amanha eu faço to morto
