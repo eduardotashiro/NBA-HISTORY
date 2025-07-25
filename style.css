@@ -353,3 +353,65 @@ body {
 
 /***** PÁGINAS DOS TIMES - ESTILO PADRÃO *****/
 
+
+.cabecalho-times h1 {
+   text-align: center;
+   border: 1px solid red;
+   max-width: 980px;
+   margin: 0 auto;
+   font-size: 45px; 
+   color: coral;
+   text-shadow: 2px 2px #2d0f17;
+   font-family:'Bebas Neue' ;
+   
+}
+
+.cabecalho-times h1 img {
+    margin: 0 15px;
+    background-color: #2d0f17 ;
+    border-radius: 26px;
+}
+
+.conteudo-times h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: coral;margin-bottom: 10px;
+    
+}
+
+.conteudo-times p{
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    line-height: 3;
+    
+}
+
+
+.times-history{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.times-history{
+    background: #121212;
+   
+}
+    
+
+.conteudo-times{
+    border: 1px solid red;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px; 
+}
+
+
+
+.rodape-times, .rodape-times a{
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+
+}
