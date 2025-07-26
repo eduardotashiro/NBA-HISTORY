@@ -37,7 +37,7 @@ body {
 
 
 #cabecalho {
-    background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
+    background:linear-gradient(119deg, rgb(145, 144, 144) 20%, rgb(205, 129, 116) 100%);
     padding: 23px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144);
     position: fixed;
@@ -102,18 +102,32 @@ body {
     text-shadow: 2px 2px #ff0000;
     font-family: 'Georgia', serif;
 }
-
+/*conferencia leste*/
 .container h1 {
     text-align: center;
     font-family: 'Georgia', serif;
     color: #ffffff;
     text-shadow: 2px 2px #ff0000;
     margin:100px;
-    background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
+    background:linear-gradient(119deg, rgb(145, 144, 144) 10%, rgb(205, 129, 116) 100%);
     border-radius: 50px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144);
     padding: 5px;
+}
 
+.conferencia-leste h3,
+.conferencia-oeste h3{
+    text-align: center;
+    width: 20em;
+    margin: 2em auto;
+    border-radius: 50px;
+    line-height: 2em;
+    background:linear-gradient(119deg, rgb(145, 144, 144) 10%, rgb(205, 129, 116) 100%);
+    font-size: 20px;
+    box-shadow: 5px 5px 50px rgb(145, 144, 144);
+    color:#2d0f17;
+    text-shadow: 2px 2px coral;
+    font-family:'Bebas Neue' ;
 }
 
 .clear{
@@ -132,17 +146,18 @@ body {
     margin: 20px auto;
     background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
     border-radius: 100px;
-    padding: 30px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144); 
+    
 }
 
 .saudacoes h2{
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px #ff0000;
+    font-size: 24px;
+    line-height: 2em;
     font-family: 'Georgia', serif;
-    font-size: 23px;
-
+    
 }
    
 
