@@ -37,7 +37,7 @@ body {
 
 
 #cabecalho {
-    background:linear-gradient(119deg, rgb(145, 144, 144) 20%, rgb(205, 129, 116) 100%);
+    background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     padding: 23px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144);
     position: fixed;
@@ -83,7 +83,7 @@ body {
 .container {
     margin: auto;
     width: 720px;
-    padding-top: 250px;
+    padding-top: 10em;
 }
 
 
@@ -95,21 +95,14 @@ body {
     
 }
 
-.sub-titulo {
-    text-align: center;
-    color: #ffffff;
-    font-size: 50px;
-    text-shadow: 2px 2px #ff0000;
-    font-family: 'Georgia', serif;
-}
-/*conferencia leste*/
+/*conferencia leste    padding-top: 10em;  */
 .container h1 {
     text-align: center;
     font-family: 'Georgia', serif;
     color: #ffffff;
     text-shadow: 2px 2px #ff0000;
-    margin:100px;
-    background:linear-gradient(119deg, rgb(145, 144, 144) 10%, rgb(205, 129, 116) 100%);
+    margin: 2em auto;
+    background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     border-radius: 50px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144);
     padding: 5px;
@@ -122,7 +115,7 @@ body {
     margin: 2em auto;
     border-radius: 50px;
     line-height: 2em;
-    background:linear-gradient(119deg, rgb(145, 144, 144) 10%, rgb(205, 129, 116) 100%);
+    background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     font-size: 20px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144);
     color:#2d0f17;
@@ -143,8 +136,8 @@ body {
     
     text-align: center;
     justify-content: center;
-    margin: 20px auto;
-    background:linear-gradient(119deg, rgb(145, 144, 144) 30%, rgb(205, 129, 116) 100%);
+   
+    background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     border-radius: 100px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144); 
     
@@ -429,4 +422,31 @@ body.times-history{
     padding: 30px;
     text-decoration: none;
 
+}
+
+/***BARRA DE NAVEGAÇÃO HORIZONTAL TIMES****/
+
+ul{
+    border: 1px solid red;
+    list-style-type: none;
+    width: 250px;
+    margin: 100px 0 0 0;
+    padding: 0;
+    display: block;
+    position: fixed;
+    border-radius: 50px;
+}
+
+li{
+    padding: 10px ;
+    text-align: center;
+    font-size: 25px;
+    line-height: 2em;
+}
+
+ul a{
+    font-family: 'Bebas Neue', sans-serif;
+    color: coral;
+    text-decoration: none;
+    background: url();
 }
