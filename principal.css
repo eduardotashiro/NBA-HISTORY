@@ -1,6 +1,6 @@
 /***** ESTILOS GERAIS DO SITE *****/
 
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 * {
@@ -17,7 +17,7 @@
 
 
 body {
-    background:  rgb(205, 129, 116) url(fundo/fundamentos-de-basquete-3d.jpg);
+    background:  rgb(205, 129, 116) url(./imagens/fundo/fundamentos-de-basquete-3d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* cobre 100% da tela de forma proporcional */
@@ -35,7 +35,6 @@ body {
 
 }
 
-
 #cabecalho {
     background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     padding: 23px;
@@ -45,16 +44,10 @@ body {
     z-index: 100;
     border-radius:0 0  300px 300px ;
     
+    
 }
 
-
-.menu {
-
-    align-items: center;
-    justify-content: center;
-}
-
-.logos-nba img{
+#logos-nba img{
     width: 100px;
     height: auto;
     position: fixed;
@@ -84,8 +77,8 @@ body {
     margin: auto;
     width: 720px;
     padding-top: 10em;
+    
 }
-
 
 .titulo-principal {
     text-align: center;
@@ -95,17 +88,18 @@ body {
     
 }
 
-/*conferencia leste    padding-top: 10em;  */
-.container h1 {
+.conferencia-leste h1 , 
+.conferencia-oeste h1 {
     text-align: center;
     font-family: 'Georgia', serif;
     color: #ffffff;
     text-shadow: 2px 2px #ff0000;
-    margin: 2em auto;
+    margin: 2em;
     background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     border-radius: 50px;
     box-shadow: 5px 5px 50px rgb(145, 144, 144);
     padding: 5px;
+   
 }
 
 .conferencia-leste h3,
@@ -122,6 +116,7 @@ body {
     text-shadow: 2px 2px coral;
     font-family:'Bebas Neue' ;
 }
+
 
 .clear{
     clear:both;
@@ -152,9 +147,6 @@ body {
     font-family: 'Georgia', serif;
     
 }
-   
-
-
 
 
 
@@ -356,97 +348,17 @@ body {
 
 .rodape{
     text-align: center;
-    padding: 30px;
-}
-
-/***** PÁGINAS DOS TIMES - ESTILO PADRÃO *****/
-
-
-.cabecalho-times h1 {
-   text-align: center;
-   border: 1px solid red;
-   max-width: 980px;
-   margin: 0 auto;
-   font-size: 45px; 
-   color: coral;
-   text-shadow: 2px 2px #2d0f17;
-   font-family:'Bebas Neue' ;
+    padding: 20px;
+    font-size: 20px;
+    
    
-}
-
-.cabecalho-times h1 img {
-    margin: 0 15px;
-    background-color: #2d0f17 ;
-    border-radius: 26px;
-}
-
-.conteudo-times h2{
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 28px;
-    color: coral;margin-bottom: 10px;
     
 }
 
-.conteudo-times p{
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    color:rgb(255, 255, 255);
-    line-height: 3;
-    
-}
-
-
-.times-history{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body.times-history{
-    background: #121212;
+.rodape a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
    
-}
-    
-
-.conteudo-times{
-    border: 1px solid red;
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 30px; 
-}
-
-
-
-.rodape-times, .rodape-times a{
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
-
-}
-
-/***BARRA DE NAVEGAÇÃO HORIZONTAL TIMES****/
-
-ul{
-    border: 1px solid red;
-    list-style-type: none;
-    width: 250px;
-    margin: 100px 0 0 0;
-    padding: 0;
-    display: block;
-    position: fixed;
-    border-radius: 50px;
-}
-
-li{
-    padding: 10px ;
-    text-align: center;
-    font-size: 25px;
-    line-height: 2em;
-}
-
-ul a{
-    font-family: 'Bebas Neue', sans-serif;
-    color: coral;
-    text-decoration: none;
-    background: url();
 }
