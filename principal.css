@@ -1,99 +1,112 @@
-/***** ESTILOS GERAIS DO SITE *****/
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+/*** FORMATAÇÃO GLOBAL ***/
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-    font-family: "Boogaloo", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-
+    box-sizing: border-box;   
+    font-weight: 400;   
 }
-
-
 
 body {
     background:rgb(205, 129, 116) url(./imagens/fundo/fundamentos-de-basquete-3d.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    /* cobre 100% da tela de forma proporcional */
-
-    background-attachment: fixed;
-    /* fixa o fundo ao rolar */
-
-    background-position: center center;
-    /* centraliza horizontal e verticalmente */
-
-    min-width: 360px;
-    /* largura mínima que o layout suporta */
-    min-height: 100vh;
-    /* altura mínima da tela */
-
+    background-size: cover; /***cobre 100% da tela de forma proporcional***/
+    background-attachment: fixed;  /***fixa o fundo ao rolar ***/
+    background-position: center center; /*** centraliza horizontal e verticalmente ***/
 }
+
+/*** CABEÇALHO ***/
 
 #cabecalho {
     background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
-    padding: 23px;
-    box-shadow: 5px 5px 50px rgb(145, 144, 144);
+    height: 60px;
+    box-shadow: 0px 3px 10px rgb(145, 144, 144);
     position: fixed;
     width: 100vw;
-    z-index: 100;
-    border-radius:0 0  300px 300px ;
-    
-    
+    z-index: 100; 
 }
 
-#logos-nba img{
+#cabecalho h1{
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: black;
+    text-shadow: 1px 1px #ff0000;
+}
+
+/*** FIM CABEÇALHO ***/
+
+/*** CONTAINER ***/
+#container {
+    margin: auto;
+    width: 720px;
+    padding-top: 6em;
+    min-width:720px;
+    
+}
+/*** FIM CONTAINER ***/
+
+/*** LOGOS NBA ***/
+
+#logos-nba .logo1, .logo2{
     width: 100px;
     height: auto;
     position: fixed;
-    z-index: 0;
+    bottom: 10px;  
 }
 
-.logo1 {
-    bottom: 10px;
+.logo1 {   
     left: 0px;
 }
 
-.logo2 {
-    bottom: 10px;
+.logo2 {  
     right: 0px;
 }
 
-.pik img {
-    width: 200px;
-    height: 200px;
+/*** FIM LOGOS NBA ***/
+
+/*** APRESENTAÇÃO ***/
+
+#saudacoes{  
+    text-align: center;
+    justify-content: center;
+    background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
+    border-radius: 50px;
+    box-shadow: 0px 3px 10px rgb(145, 144, 144);
+    height: 100px;    
+}
+
+#saudacoes h2{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px #ff0000;
+    line-height: 50px;
+}
+
+/*** FIM APRESENTAÇÃO ***/
+
+/*** ESCUDOS TIMES ***/
+
+.times-nba{
+    width: 27%;
+    height: 27%;
     padding: 2px;
     margin: 20px;
     cursor: pointer;
     float: left;
 }
 
-.container {
-    margin: auto;
-    width: 720px;
-    padding-top: 10em;
-    
-}
+/*** FIM ESCUDOS TIMES ***/
 
-.titulo-principal {
-    text-align: center;
-    font-family: 'Georgia', serif;
-    color: #ffffff;
-    text-shadow: 2px 2px #ff0000;
-    
-}
+/*** TíTULO EAST AND WEST ***/
 
 .conferencia-leste h1 , 
 .conferencia-oeste h1 {
     text-align: center;
-    font-family: 'Georgia', serif;
-    color: #ffffff;
-    text-shadow: 2px 2px #ff0000;
+    color: black;
+    text-shadow: 1px 1px #ff0000;
     margin: 2em;
     background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     border-radius: 50px;
@@ -101,6 +114,8 @@ body {
     padding: 5px;
    
 }
+
+/*** FIM TíTULO EAST AND WEST ***/
 
 .conferencia-leste h3,
 .conferencia-oeste h3{
@@ -127,6 +142,12 @@ body {
     transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+
+
+
+
+
+/***JOGAR SELETORES SAUDAÇÕES PARAA CIMA***/
 .saudacoes{
     
     text-align: center;
