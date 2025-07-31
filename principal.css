@@ -96,6 +96,13 @@ body {
     margin: 20px;
     cursor: pointer;
     float: left;
+   
+    border-radius: 50px;
+    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.clear{
+    clear:both;
 }
 
 /*** FIM ESCUDOS TIMES ***/
@@ -110,13 +117,14 @@ body {
     margin: 2em;
     background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
     border-radius: 50px;
-    box-shadow: 5px 5px 50px rgb(145, 144, 144);
+    box-shadow: 0px 3px 10px rgb(145, 144, 144);
     padding: 5px;
    
 }
 
 /*** FIM TíTULO EAST AND WEST ***/
 
+/*** TÍTULOS DIVISÕES ***/
 .conferencia-leste h3,
 .conferencia-oeste h3{
     text-align: center;
@@ -125,50 +133,14 @@ body {
     border-radius: 50px;
     line-height: 2em;
     background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
-    font-size: 20px;
-    box-shadow: 5px 5px 50px rgb(145, 144, 144);
+    font-size: 21px;
+    box-shadow: 0px 3px 10px rgb(145, 144, 144);
     color:#2d0f17;
     text-shadow: 2px 2px coral;
     font-family:'Bebas Neue' ;
 }
 
-
-.clear{
-    clear:both;
-}
-
-.times-nba {
-    border-radius: 50px;
-    transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-
-
-
-
-
-/***JOGAR SELETORES SAUDAÇÕES PARAA CIMA***/
-.saudacoes{
-    
-    text-align: center;
-    justify-content: center;
-   
-    background:linear-gradient(100deg, rgb(95, 81, 159) 0%, rgb(205, 129, 116) 100%);
-    border-radius: 100px;
-    box-shadow: 5px 5px 50px rgb(145, 144, 144); 
-    
-}
-
-.saudacoes h2{
-    text-align: center;
-    color: #ffffff;
-    text-shadow: 2px 2px #ff0000;
-    font-size: 24px;
-    line-height: 2em;
-    font-family: 'Georgia', serif;
-    
-}
-
+/*** FIM TÍTULO DIVISÕES ***/
 
 
 
@@ -369,17 +341,17 @@ body {
 
 .rodape{
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    
+    padding: 10px;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
    
-    
 }
 
 .rodape a{
     color: black;
     text-decoration: none;
     list-style: none;
-    color: rgb(255, 255, 255);
+    color:coral;
    
 }
