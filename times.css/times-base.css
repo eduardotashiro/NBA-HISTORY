@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/***RESET***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***ESTRUTURA GERAL***/
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/***CABEÇALHO***/
+.cabecalho-default {
+    position: fixed;
+    width: 100%;
+    background: #2d0f17;
+    height: 100px;
+}
+
+.cabecalho-default h1 {
+    text-align: center;
+    max-width: 990px;
+    line-height: 100px;
+    margin: 0 auto;
+    font-size: 40px;
+    color: coral;
+    text-shadow: 2px 2px #2d0f17;
+    font-family: 'Bebas Neue';
+}
+
+.cabecalho-default h1 img {
+    margin: 0 40px;
+    background-color: #2d0f17;
+    border-radius: 26px;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.conteudo-times h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: coral;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.conteudo-times p {
+    font-size: 22px;
+    line-height: 3;
+}
+
+.conteudo-times {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.clear {
+    clear: both;
+}
+
+/***RODAPÉ***/
+.rodape-times, .rodape-times a {
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/***LOGOS FIXAS***/
+.logos-nba img {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    z-index: 0;
+}
+
+.logo1 {
+    bottom: 10px;
+    left: 0px;
+}
+
+.logo2 {
+    bottom: 10px;
+    right: 0px;
+}
+
+/***BOTÃO VOLTAR***/
+.btn-back {
+    list-style-type: none;
+    margin-top: 25px;
+    position: fixed;
+    margin-left: 4em;
+}
+
+.btn-link {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn-back a {
+    font-family: 'Bebas Neue', sans-serif;
+    color: coral;
+    text-decoration: none;
+    width: 200px;
+    line-height: 2em;
+    display: block;
+    border-radius: 50px;
+    background: #793434;
+    transition: all 0.2s cubic-bezier(.37,.38,.64,.63);
+}
+
+.cabecalho-default a:hover {
+    color: #2d0f17;
+    transform: scale(1.1);
+    transition: all 0.3s cubic-bezier(.37,.38,.64,.63);
+}
+
+/***TABELA***/
+table {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding-left: 0;
+    width: 2px;
+    border-top: 1px solid #008248;
+    border-bottom: 1px solid #008248;
+}
+
+td {
+    padding: 5px;
+}
+
+tr {
+    border-bottom: 1px solid #008248;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+/***GALERIA***/
+.galeria img {
+    float: left;
+    margin: 5px;
+    border-radius: 50px;
+    width: 25.7em;
+    height: 25.7em;
+}
