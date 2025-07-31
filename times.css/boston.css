@@ -1,4 +1,4 @@
-/* Fundo exclusivo do Boston */
+/***Fundo exclusivo do Boston***/
 body.times-boston {
     background: #11452e url(/imagens/galeria/boston/55db67f3499c2fa57c3b26cb58830683.jpg) no-repeat top;
     background-size: 400px;
@@ -7,7 +7,7 @@ body.times-boston {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Cor específica no rodapé */
+/***Cor específica no rodapé */
 .rodape-boston p{
     color: rgb(0, 0, 0);
 }

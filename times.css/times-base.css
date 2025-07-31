@@ -24,22 +24,27 @@ body {
 
 .cabecalho-default h1 {
     text-align: center;
-    max-width: 990px;
+    max-width: 700px;
     line-height: 100px;
     margin: 0 auto;
     font-size: 40px;
     color: coral;
-    text-shadow: 2px 2px #2d0f17;
     font-family: 'Bebas Neue';
+    display: block;
 }
 
-.cabecalho-default h1 img {
-    margin: 0 40px;
+.cabecalho-default img{
     background-color: #2d0f17;
-    border-radius: 26px;
+    vertical-align: middle;
     width: 1.5em;
     height: 1.5em;
+    margin: 0 50px;
+    
 }
+
+
+
+
 
 .conteudo-times h2 {
     font-family: 'Bebas Neue', sans-serif;
