@@ -1,17 +1,22 @@
 /***Fundo exclusivo do Boston***/
+*{
+      color: black;
+}
+
 body.times-76ers {
-    background: #11452e url(/imagens/galeria/) no-repeat top;
-    background-size: 400px;
+    background: #006cb7 url(/imagens/galeria/76ers/bgg.jpg) no-repeat top;
+    background-size: 300px;
     background-attachment: fixed;
     font-weight: 400;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 /***Cor específica no rodapé */
-.rodape-boston p{
+.rodape-boston p {
     color: rgb(0, 0, 0);
 }
 
-.rodape-boston a{
+.rodape-boston a {
     color: coral;
 }
